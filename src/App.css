@@ -1,38 +1,31 @@
-.App {
-  text-align: center;
+.location-box .location {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+    text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Rain {
+    background-image: url("https://www.sciencemag.org/sites/default/files/styles/article_main_large/public/rain_16x9.jpg?itok=DbnCt8is");
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Mist {
+    background-image: url("https://www.wallpaperup.com/uploads/wallpapers/2013/07/16/119101/ec0b001abf48f460a9d1dfb8b2514dc4.jpg");
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Clouds {
+    background-image: url("https://www.revelstokereview.com/wp-content/uploads/2019/11/19214934_web1_clouds-1571778_1920.jpg");
 }
-
-.App-link {
-  color: #61dafb;
+.Clear {
+    background-image: url("https://blakewd.files.wordpress.com/2015/02/sunny-day-wallpaper.jpg");
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Drizzle {
+    background-image: url("https://www.metoffice.gov.uk/binaries/content/gallery/metofficegovuk/hero-images/weather/rain/rain-and-umbrella.jpg");
+}
+.Smoke {
+    background-image: url("https://media.wired.com/photos/5b8473dacde746582fe9ff00/master/pass/smokestorm-1021620844.jpg");
+}
+.Haze {
+    background-image: url("https://www.washingtonpost.com/resizer/IrXkBz6n2uNs4_0mTDmtrkDeR0c=/1484x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/FQPQPJX64AI6TA2BZQ644UXH3Y.jpg");
+}
+.Thunderstorm {
+background-image: url("https://media4.s-nbcnews.com/i/newscms/2018_16/1333661/lightening-stock-today-180420-tease_4aeb5d5a1bdfb4d9b15ba54730fbb086.jpg");
 }
